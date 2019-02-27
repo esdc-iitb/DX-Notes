@@ -9,6 +9,7 @@ Improving the Developer Experience at ESDC through building a culture of Continu
 - Work in the Open
 - Make it Easy to do the Right Things
 - Make it Hard to do the Wrong Things
+- Make it OK to do the Wrong thing but make it easy to fix it fast
 - Don't be Dogmatic in our Decisions
 - Small Projects - Big Wins
 
