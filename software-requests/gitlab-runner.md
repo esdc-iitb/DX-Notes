@@ -1,6 +1,9 @@
 # GitLab-Runner ITAM Request 
 https://docs.gitlab.com/runner/
 
+## General Product Functionality
+Pulls specificed GitLab repositories for changes and runs a series of 'jobs' and commands defined in that repository within an isolated enviornment defined by the commands. Typically those commands will consist of compile, testing, packaging and deploying stages. It will send the results of those 'jobs' and commands back to GitLab.
+
 ## Business Rational
 
 ### Business Drivers 
