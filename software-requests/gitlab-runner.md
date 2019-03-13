@@ -21,6 +21,7 @@ We need a tool that can:
 - integrate effectively with the source control environment being used by the development team; 
 - deploy compiled solutions to multiple environments (SADE, SSC and Cloud) and report on the version and status of that deployment; 
 - integrate the pipeline definition into the source code versioning; 
+- handel running a pipeline on multiple branches created on the fly.
 
 ### Historical Background / Current Situation 
 
@@ -40,6 +41,7 @@ With research and proof-of-concepts, GitLab-Runner (free under the MIT license) 
 - Existing in department
 
 #### Cons
+- Doesn't have integration with GCCode (GitLab)
 - Rebuilds for each enviornment
 - Cumbersome UI with no alternative
 - Managed seperate from source
@@ -52,5 +54,9 @@ With research and proof-of-concepts, GitLab-Runner (free under the MIT license) 
 
 #### Pros
 - Existing in department
+- Meets most of the Business Functionality Requirements
 
 #### Cons
+- Doesn't have integration with GCCode (GitLab)
+- Outdated when dealing with containers, doesn't provide full funtionality
+- Can't configure diffren't stages depending on branch
