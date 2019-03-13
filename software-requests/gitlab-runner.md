@@ -59,4 +59,3 @@ With research and proof-of-concepts, GitLab-Runner (free under the MIT license) 
 #### Cons
 - Doesn't have integration with GCCode (GitLab)
 - Outdated when dealing with containers, doesn't provide full funtionality
-- Can't configure diffren't stages depending on branch
