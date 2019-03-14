@@ -61,3 +61,11 @@ This request is coming from the Developer Experince team tasked by senior manage
 #### Cons
 - Doesn't have integration with GCCode (GitLab)
 - Outdated when dealing with containers, doesn't provide full funtionality
+
+## Connections Diagram
+**Legend**  
+Black: Existing state  
+Green: New with GitLab-Runner introduction  
+Blue: Future state
+
+![Connections Diagram](https://github.com/esdc-devx/DX-Notes/blob/gitlab-runner/software-requests/GitLab-Runner_ConnectionDiagram.PNG)
