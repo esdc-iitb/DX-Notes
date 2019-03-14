@@ -2,7 +2,11 @@
 https://docs.gitlab.com/runner/
 
 ## General Product Functionality
-Pulls specificed GitLab repositories for changes and runs a series of 'jobs' and commands defined in that repository within an isolated enviornment defined by the commands. Typically those commands will consist of compile, testing, packaging and deploying stages. It will send the results of those 'jobs' and commands back to GitLab.
+Pulls specificed GitLab repositories for changes and runs a series of 'jobs' and commands defined in that repository within an isolated enviornment defined by the commands. 
+Typically those commands will consist of compile, testing, packaging and deploying stages. 
+It will send the results of those 'jobs' and commands back to GitLab.
+GitLab-Runner will also allow us to make use of GitLab's Audo DevOps allowing us to stand up fully featured CI/CD pipelines with minimal work.
+It also has powerfull integrations with Kubernetes and Docker enabling the transition to those tools in our future much simpler.
 
 ## Business Rational
 
@@ -31,8 +35,10 @@ SSC has stood up an instance of GitLab Community Edition (free under the MIT lic
 ESDC has started to use GCCode for many of our solutions. 
 We have been able to integrate GCCode with TFS and Jenkins, but because these tools were not designed to work together, we have encountered many problems and need a suitable solution to go forward. 
 With research and proof-of-concepts, GitLab-Runner (free under the MIT license) has proven its self to be far more effective than the current tools; even in their most optimized setup. 
+GCCode is planning to allow the use of shared runners hosted by the owner of GCCode (currently SSC, expected to be PSPC in the near future) and integration of GitLab with our cloud infrastructure. 
+Having access to gitlab-runner now will help build capacity with the tool for when these features are enabled.
 
-This request is coming from the Developer Experince team tasked by senior management up to the director general level to improve the developer experince; and we believe that this tool is critial to the department in moveing us forward with modern software development.
+This request is coming from the Developer Experince team tasked by senior management up to the director general level to improve the developer experince; and we believe that this tool is critial to the department in moving us forward with modern software development.
 
 ## Alternative Products
 
@@ -43,7 +49,7 @@ This request is coming from the Developer Experince team tasked by senior manage
 - Existing in department
 
 #### Cons
-- Doesn't have integration with GCCode (GitLab)
+- Doesn't have native integration with GCCode (GitLab)
 - Rebuilds for each enviornment
 - Cumbersome UI with no alternative
 - Managed seperate from source
@@ -59,7 +65,7 @@ This request is coming from the Developer Experince team tasked by senior manage
 - Meets most of the Business Functionality Requirements
 
 #### Cons
-- Doesn't have integration with GCCode (GitLab)
+- Doesn't have native integration with GCCode (GitLab)
 - Outdated when dealing with containers, doesn't provide full funtionality
 
 ## Connections Diagram
