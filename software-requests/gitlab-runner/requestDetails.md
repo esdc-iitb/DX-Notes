@@ -69,8 +69,8 @@ Green: New with GitLab-Runner installs
 Blue: Potiential future state
 
 ### Basic introduction diagram
-![Connections Diagram](https://github.com/esdc-devx/DX-Notes/blob/gitlab-runner/software-requests/GitLab-Runner_ConnectionDiagram.PNG)
+![Connections Diagram](https://github.com/esdc-devx/DX-Notes/blob/gitlab-runner/software-requests/gitlab-runner/GitLab-Runner_ConnectionDiagram.PNG)
 
 
 ### Diagram with potential cloud integration
-![Connections Diagram With Cloud](https://github.com/esdc-devx/DX-Notes/blob/gitlab-runner/software-requests/GitLab-Runner_ConnectionDiagram_WithCloud.PNG)
+![Connections Diagram With Cloud](https://github.com/esdc-devx/DX-Notes/blob/gitlab-runner/software-requests/gitlab-runner/GitLab-Runner_ConnectionDiagram_WithCloud.PNG)
