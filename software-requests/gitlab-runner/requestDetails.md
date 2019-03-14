@@ -65,7 +65,7 @@ This request is coming from the Developer Experince team tasked by senior manage
 ## Connections Diagram
 **Legend**  
 Black: Existing state  
-Green: New with GitLab-Runner installs
+Green: New with GitLab-Runner installs  
 Blue: Potiential future state
 
 ### Basic introduction diagram
